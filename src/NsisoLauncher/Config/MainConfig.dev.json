@@ -1,0 +1,85 @@
+{
+  "User": {
+    "UserDatabase": {
+      "2205e57d6f5149148d045c1c31062f5a": {
+        "AuthModule": "offline",
+        "UserName": "输入你的名字",
+        "AccessToken": null,
+        "SelectProfileUUID": "68f6cbc02631480abff41839b4fae105",
+        "Profiles": {},
+        "UserData": {
+          "id": "2205e57d6f5149148d045c1c31062f5a",
+          "email": null,
+          "username": null,
+          "properties": null
+        }
+      }
+    },
+    "AuthenticationDic": {},
+    "ClientToken": "65c55d8835714865a9d4ab1768f8680a",
+    "LockAuthName": null,
+    "Nide8ServerDependence": false
+  },
+  "Environment": {
+    "VersionIsolation": false,
+    "GamePathType": 0,
+    "GamePath": null,
+    "GCEnabled": true,
+    "GCType": 0,
+    "GCArgument": null,
+    "AutoJava": true,
+    "JavaPath": "C:\\Program Files\\Java\\jre1.8.0_212\\bin\\javaw.exe",
+    "JavaAgent": null,
+    "AutoMemory": false,
+    "MaxMemory": 4096,
+    "MinMemory": 0,
+    "AdvencedJvmArguments": null,
+    "AdvencedGameArguments": null,
+    "WindowSize": {
+      "FullScreen": false,
+      "Height": 768,
+      "Width": 1366
+    },
+    "DownloadLostDepend": true,
+    "DownloadLostAssets": true,
+    "ExitAfterLaunch": false
+  },
+  "History": {
+    "SelectedUserNodeID": "5a04c4f03d064053bb07bad9c0a21ed4",
+    "LastLaunchVersion": "1.12.2-forge-14.23.5.2854",
+    "LastLaunchTime": "0001-01-01T00:00:00",
+    "LastLaunchUsingMs": 0
+  },
+  "Launcher": {
+    "Debug": false,
+    "NoTracking": false,
+    "CheckUpdate": false,
+    "WriteLog": false
+  },
+  "Download": {
+    "DownloadSource": 0,
+    "DownloadThreadsSize": 3,
+    "DownloadProxyAddress": null,
+    "DownloadProxyPort": 0,
+    "ProxyUserName": null,
+    "ProxyUserPassword": null,
+    "CheckDownloadFileHash": true
+  },
+  "Server": {
+    "ServerName": "梦域",
+    "ShowServerInfo": true,
+    "LaunchToServer": true,
+    "Address": "dmc.zsh2401.top",
+    "Port": 25565
+  },
+  "Customize": {
+    "CustomBackGroundPicture": true,
+    "CustomBackGroundMusic": false,
+    "AccentColor": "Steel",
+    "AppThme": "BaseLight",
+    "LauncherTitle": "梦域-启动器",
+    "GameWindowTitle": "梦域 V1.3",
+    "VersionInfo": "Powered by mc 1.12.2"
+  },
+  "ConfigVersion": "4.8.7368.23222"
+}

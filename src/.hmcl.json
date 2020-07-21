@@ -1,0 +1,96 @@
+{
+  "last": "Default",
+  "backgroundType": "DEFAULT",
+  "commonDirType": "DEFAULT",
+  "commonpath": "/home/zsh2401/.minecraft",
+  "hasProxy": false,
+  "hasProxyAuth": false,
+  "proxyType": "HTTP",
+  "proxyPort": 0,
+  "width": 834.0,
+  "height": 514.0,
+  "theme": "#5c6bc0",
+  "localization": "def",
+  "downloadType": "bmclapi",
+  "configurations": {
+    "Default": {
+      "global": {
+        "usesGlobal": true,
+        "javaArgs": "",
+        "minecraftArgs": "",
+        "maxMemory": 1920,
+        "permSize": "",
+        "width": 854,
+        "height": 480,
+        "javaDir": "",
+        "precalledCommand": "",
+        "serverIp": "",
+        "java": "Default",
+        "wrapper": "",
+        "fullscreen": false,
+        "noJVMArgs": false,
+        "notCheckGame": false,
+        "notCheckJVM": false,
+        "showLogs": false,
+        "gameDir": "",
+        "launcherVisibility": 1,
+        "gameDirType": 0,
+        "defaultJavaPath": ""
+      },
+      "gameDir": ".minecraft",
+      "useRelativePath": true,
+      "selectedMinecraftVersion": "1.12.2-forge-14.23.5.2854"
+    },
+    "Home": {
+      "global": {
+        "usesGlobal": false,
+        "javaArgs": "",
+        "minecraftArgs": "",
+        "maxMemory": 1920,
+        "permSize": "",
+        "width": 854,
+        "height": 480,
+        "javaDir": "",
+        "precalledCommand": "",
+        "serverIp": "",
+        "java": "",
+        "wrapper": "",
+        "fullscreen": false,
+        "noJVMArgs": false,
+        "notCheckGame": false,
+        "notCheckJVM": false,
+        "showLogs": false,
+        "gameDir": "",
+        "launcherVisibility": 1,
+        "gameDirType": 0,
+        "defaultJavaPath": ""
+      },
+      "gameDir": "/home/zsh2401/.minecraft",
+      "useRelativePath": false,
+      "selectedMinecraftVersion": ""
+    }
+  },
+  "accounts": [
+    {
+      "clientToken": "fe712c7e9bbd4455812923eb8cfd4f9a",
+      "displayName": "zsh2401",
+      "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNjQyZDdlODgxY2MxYjQ0ZWVkZDM4ODczZGUzODJiNCIsInlnZ3QiOiI3YTdmNTFjNzk2NDM0ZGZmYmE1MTdjZTcyMTUwY2M4NyIsInNwciI6ImFjYWEyMmQ5MTc5NzRhODQ4ZmQyOGY1MTljOTJjYmI5IiwiaXNzIjoiWWdnZHJhc2lsLUF1dGgiLCJleHAiOjE1OTU0MzY1NjgsImlhdCI6MTU5NTI2Mzc2OH0.qC7Y93xN13cB6IYI_P4r4J4Xyd9VR3r2HsKa6H5T2R4",
+      "profileProperties": {
+        "textures": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI2NTQ5OTkxMSwKICAicHJvZmlsZUlkIiA6ICJhY2FhMjJkOTE3OTc0YTg0OGZkMjhmNTE5YzkyY2JiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6c2gyNDAxIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI3MWM4ZGE1YzUzN2M0MzhkNDIwZWNmNjU5ZWY2ZDVlNzAzNWRiZmI0NDBhMjE3OTIyZDg0ZmQ1MzRhYmQ3ZDgiCiAgICB9CiAgfQp9"
+      },
+      "type": "yggdrasil",
+      "uuid": "acaa22d917974a848fd28f519c92cbb9",
+      "userid": "a642d7e881cc1b44eedd38873de382b4",
+      "selected": true,
+      "username": "zsh2401@163.com"
+    }
+  ],
+  "fontFamily": "Consolas",
+  "fontSize": 12.0,
+  "logLines": 500,
+  "authlibInjectorServers": [],
+  "updateChannel": "STABLE",
+  "_version": 0,
+  "uiVersion": 0,
+  "preferredLoginType": "yggdrasil"
+}

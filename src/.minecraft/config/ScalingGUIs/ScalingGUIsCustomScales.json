@@ -1,0 +1,57 @@
+{
+  "guiScale": 9,
+  "hudScale": 9,
+  "tooltipScale": 9,
+  "customIndividualGuiScales": {
+    "net.minecraft.client.gui.inventory.GuiChest": {
+      "scale": 2,
+      "name": "net.minecraft.client.gui.inventory.GuiChest"
+    },
+    "net.minecraft.client.gui.GuiIngameMenu": {
+      "scale": 2,
+      "name": "net.minecraft.client.gui.GuiIngameMenu"
+    }
+  },
+  "customGroupGuiScales": {},
+  "loggedGuiClassNames": [
+    "net.minecraftforge.fml.client.GuiModList",
+    "net.minecraft.client.gui.inventory.GuiFurnace",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG$GuiDeleteEntry",
+    "spazley.scalingguis.gui.guiconfig.GuiSelectDeleteSG",
+    "net.minecraft.client.gui.GuiScreenOptionsSounds",
+    "com.pixelmonmod.pixelmon.client.gui.GuiItemDrops",
+    "com.pixelmonmod.pixelmon.client.gui.moveskills.GuiMoveSkillSelect",
+    "com.pixelmonmod.pixelmon.client.gui.battles.GuiBattle",
+    "com.pixelmonmod.pixelmon.client.gui.GuiHealer",
+    "org.dimdev.vanillafix.crashes.GuiCrashScreen",
+    "com.pixelmonmod.pixelmon.quests.client.ui.QuestsGUI",
+    "net.minecraft.client.gui.GuiControls",
+    "net.minecraft.client.gui.GuiDisconnected",
+    "net.minecraft.client.gui.GuiChat",
+    "net.optifine.gui.GuiChatOF",
+    "net.minecraft.client.gui.inventory.GuiChest",
+    "net.minecraft.client.gui.GuiIngameMenu",
+    "net.minecraft.client.multiplayer.GuiConnecting",
+    "f.f.m.iiiIIIiIiI",
+    "net.minecraft.client.gui.GuiMultiplayer",
+    "net.minecraft.client.gui.GuiWorldSelection",
+    "net.minecraftforge.fml.client.GuiConfirmation",
+    "net.minecraft.client.gui.GuiMainMenu",
+    "net.minecraft.client.gui.GuiScreenWorking",
+    "net.minecraft.client.gui.GuiDownloadTerrain",
+    "f.f.e.f.iIiiiIiiii",
+    "net.minecraftforge.fml.client.config.GuiEditArray",
+    "spazley.scalingguis.gui.guiconfig.GuiSelectStringSG",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG$GuiNewScale",
+    "net.minecraftforge.fml.client.config.GuiConfig",
+    "com.pixelmonmod.pixelmon.client.gui.inventory.GuiInventoryPixelmonExtended",
+    "com.pixelmonmod.pixelmon.client.gui.inventory.GuiCreativeInventoryExtended",
+    "com.mamiyaotaru.voxelmap.persistent.GuiPersistentMap",
+    "f.f.e.v.iiiIiiIIII",
+    "net.minecraft.client.gui.GuiOptions",
+    "net.minecraft.client.gui.GuiVideoSettings",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG"
+  ],
+  "blacklistGuiClassNames": [],
+  "dynamicGuiScales": []
+}
