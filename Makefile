@@ -23,7 +23,7 @@ pack_unix: clean
 
 cleansrc:
 	@make -C ./src/.minecraft clean
-	@rm src/.hmcl.json
+	@rm -f src/.hmcl*.json
 
 cleanbuild:
 	@rm -rf $(FLODER) $(UNIX_FLODER)
