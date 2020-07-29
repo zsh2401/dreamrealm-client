@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:3
 fancyGraphics:false
 ao:2
-renderClouds:fast
+renderClouds:false
 resourcePacks:["Faithful 1.12.2-r4.zip"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
