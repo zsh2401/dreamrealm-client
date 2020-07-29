@@ -25,7 +25,7 @@
         "javaDir": "",
         "precalledCommand": "",
         "serverIp": "",
-        "java": "Default",
+        "java": "1.8.0_262",
         "wrapper": "",
         "fullscreen": false,
         "noJVMArgs": false,
@@ -35,7 +35,7 @@
         "gameDir": "",
         "launcherVisibility": 1,
         "gameDirType": 0,
-        "defaultJavaPath": ""
+        "defaultJavaPath": "/usr/lib/jvm/java-8-openjdk/jre/bin/java"
       },
       "gameDir": ".minecraft",
       "useRelativePath": true,
@@ -74,9 +74,9 @@
     {
       "clientToken": "fe712c7e9bbd4455812923eb8cfd4f9a",
       "displayName": "zsh2401",
-      "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNjQyZDdlODgxY2MxYjQ0ZWVkZDM4ODczZGUzODJiNCIsInlnZ3QiOiI3YTdmNTFjNzk2NDM0ZGZmYmE1MTdjZTcyMTUwY2M4NyIsInNwciI6ImFjYWEyMmQ5MTc5NzRhODQ4ZmQyOGY1MTljOTJjYmI5IiwiaXNzIjoiWWdnZHJhc2lsLUF1dGgiLCJleHAiOjE1OTU0MzY1NjgsImlhdCI6MTU5NTI2Mzc2OH0.qC7Y93xN13cB6IYI_P4r4J4Xyd9VR3r2HsKa6H5T2R4",
+      "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNjQyZDdlODgxY2MxYjQ0ZWVkZDM4ODczZGUzODJiNCIsInlnZ3QiOiI4NzJiYjdjYjY4OTI0YzAyOGYzN2MwNDAzNTRhMGNjZCIsInNwciI6ImFjYWEyMmQ5MTc5NzRhODQ4ZmQyOGY1MTljOTJjYmI5IiwiaXNzIjoiWWdnZHJhc2lsLUF1dGgiLCJleHAiOjE1OTYxMTc3NjcsImlhdCI6MTU5NTk0NDk2N30.REF9vx9GgV-U_3m4sIkgPvgHWBCSVDspu62vKwfw_rw",
       "profileProperties": {
-        "textures": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTI2NTQ5OTkxMSwKICAicHJvZmlsZUlkIiA6ICJhY2FhMjJkOTE3OTc0YTg0OGZkMjhmNTE5YzkyY2JiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6c2gyNDAxIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI3MWM4ZGE1YzUzN2M0MzhkNDIwZWNmNjU5ZWY2ZDVlNzAzNWRiZmI0NDBhMjE3OTIyZDg0ZmQ1MzRhYmQ3ZDgiCiAgICB9CiAgfQp9"
+        "textures": "ewogICJ0aW1lc3RhbXAiIDogMTU5NjAwOTM3OTgxMywKICAicHJvZmlsZUlkIiA6ICJhY2FhMjJkOTE3OTc0YTg0OGZkMjhmNTE5YzkyY2JiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6c2gyNDAxIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI3MWM4ZGE1YzUzN2M0MzhkNDIwZWNmNjU5ZWY2ZDVlNzAzNWRiZmI0NDBhMjE3OTIyZDg0ZmQ1MzRhYmQ3ZDgiCiAgICB9CiAgfQp9"
       },
       "type": "yggdrasil",
       "uuid": "acaa22d917974a848fd28f519c92cbb9",

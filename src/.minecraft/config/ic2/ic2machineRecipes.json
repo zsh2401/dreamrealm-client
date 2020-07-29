@@ -59,11 +59,11 @@
   "ic2exprecipe_??__2": true,
   "ic2exprecipe_?????_": true,
   "ic2exprecipe_?????__1": true,
-  "ic2exprecipe_Ó—∑€_": true,
-  "ic2exprecipe_Ó—∑€__1": true,
-  "ic2exprecipe_Ó—∑€__2": true,
-  "ic2exprecipe_∑€ÀÈ¬¡øÛ Ø_": true,
-  "ic2exprecipe_∑€ÀÈ¬¡øÛ Ø__1": true
+  "ic2exprecipe_??_": true,
+  "ic2exprecipe_??__1": true,
+  "ic2exprecipe_??__2": true,
+  "ic2exprecipe_?????_": true,
+  "ic2exprecipe_?????__1": true
  },
  "extractor": {
   "item.coal_764578481": true,
@@ -126,7 +126,7 @@
   "item.potion_441693419": true,
   "ic2exprecipe_Titanium Dust_": true,
   "ic2exprecipe_??_": true,
-  "ic2exprecipe_Ó—∑€_": true
+  "ic2exprecipe_??_": true
  },
  "massfabricatorAmplifier": {
   "ScrapAmplifier": true,
