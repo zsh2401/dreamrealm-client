@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:3
+difficulty:0
 fancyGraphics:false
 ao:2
 renderClouds:false
@@ -91,15 +91,9 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:0
 key_Hub Expand Key:45
-key_Toggle Key:47
 key_[GC] 星图:51
 key_[GC] 打开飞船舱:33
 key_[GC] 切换传感器护目镜模式:37
-key_Scene1 start/pause:79
-key_Scene2 start/pause:80
-key_Scene3 start/pause:81
-key_Scene reset:82
-key_Quest Log:38
 key_key.fart.desc:34
 key_Camera left:203
 key_Camera right:205
@@ -118,9 +112,12 @@ key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_invtweaks.key.sort:41
+key_mekanism.key.mode:50
+key_mekanism.key.armorMode:34
+key_mekanism.key.feetMode:35
+key_mekanism.key.voice:22
 key_Mo' Bends Menu:34
 key_Refresh Animations:68
-key_key.scoreboard:49
 key_key.minimap.voxelmapmenu:50
 key_key.minimap.waypointmenu:0
 key_key.minimap.zoom:44
