@@ -7,7 +7,7 @@ UNIX_PACK=DreamRealm-$(VERSION).tar.gz
 WIN_PACK=DreamRealm-$(VERSION).zip
 
 launchercfg:
-	cp src/NsisoLauncher/Config/MainConfig.dev.json src/NsisoLauncher/Config/MainConfig.json
+	cp src/hmcl.dev.json src/hmcl.json
 
 pack: pack_win32 pack_unix
 
