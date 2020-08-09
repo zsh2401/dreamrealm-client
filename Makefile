@@ -6,14 +6,12 @@ FLODER=DreamRealm-$(VERSION)
 UNIX_PACK=DreamRealm-$(VERSION).tar.gz
 WIN_PACK=DreamRealm-$(VERSION).zip
 
-launchercfg:
-	cp src/hmcl.dev.json src/hmcl.json
-
 pack: pack_win32 pack_unix
 
-cp_win32: clean launchercfg
+cp_win32: clean
 	@mkdir $(FLODER)
-	@cp -r ./src/{开始游戏.exe,*.url,.minecraft,HMCL.jar} $(FLODER)
+	@cp ./src/hmcl.dev.json $(FLODER)/hmcl.json
+	@cp -r ./src/{开始游戏.exe,*.url,.minecraft} $(FLODER)
 
 pack_win32: cp_win32
 	@zip -r $(WIN_PACK) $(FLODER)
