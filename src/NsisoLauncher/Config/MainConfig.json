@@ -13,6 +13,39 @@
           "username": null,
           "properties": null
         }
+      },
+      "a642d7e881cc1b44eedd38873de382b4": {
+        "AuthModule": "mojang",
+        "UserName": "zsh2401@163.com",
+        "AccessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhNjQyZDdlODgxY2MxYjQ0ZWVkZDM4ODczZGUzODJiNCIsInlnZ3QiOiI3MmNiM2RlYzU4MDk0NDA2OWQ3Yzg5Y2FlMjQ4ZmY5ZiIsInNwciI6ImFjYWEyMmQ5MTc5NzRhODQ4ZmQyOGY1MTljOTJjYmI5IiwiaXNzIjoiWWdnZHJhc2lsLUF1dGgiLCJleHAiOjE1OTY3Mjk1ODIsImlhdCI6MTU5NjU1Njc4Mn0.s2rUfxD2_id0ML5Xq00z6hzgKBO9mpjizwFg6nwOi5Y",
+        "SelectProfileUUID": "acaa22d917974a848fd28f519c92cbb9",
+        "Profiles": {
+          "acaa22d917974a848fd28f519c92cbb9": {
+            "id": "acaa22d917974a848fd28f519c92cbb9",
+            "name": "zsh2401",
+            "legacy": false,
+            "demo": null
+          }
+        },
+        "UserData": {
+          "id": "a642d7e881cc1b44eedd38873de382b4",
+          "email": null,
+          "username": "zsh2401@163.com",
+          "properties": null
+        }
+      },
+      "dcc159f717ca4271a04d4e859d1b6056": {
+        "AuthModule": "offline",
+        "UserName": "Admin_2401",
+        "AccessToken": null,
+        "SelectProfileUUID": "9495fcb2a4d6414dabe0e76ce89aad8d",
+        "Profiles": {},
+        "UserData": {
+          "id": "dcc159f717ca4271a04d4e859d1b6056",
+          "email": null,
+          "username": null,
+          "properties": null
+        }
       }
     },
     "AuthenticationDic": {},
@@ -45,7 +78,7 @@
     "ExitAfterLaunch": false
   },
   "History": {
-    "SelectedUserNodeID": "5a04c4f03d064053bb07bad9c0a21ed4",
+    "SelectedUserNodeID": "dcc159f717ca4271a04d4e859d1b6056",
     "LastLaunchVersion": "1.12.2-forge-14.23.5.2854",
     "LastLaunchTime": "0001-01-01T00:00:00",
     "LastLaunchUsingMs": 0
