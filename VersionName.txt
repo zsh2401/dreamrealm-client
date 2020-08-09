@@ -1,1 +1,1 @@
-1.5-Pokemon
+1.7-Pixelmon
