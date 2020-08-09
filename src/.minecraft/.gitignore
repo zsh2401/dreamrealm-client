@@ -7,9 +7,11 @@ crash-reports
 customnpcs
 CustomSkinLoader
 logs
-mods/VoxelMods
+mods/VoxelMods/voxelMap
 photo-frame-cache
 screenshots
 pixelmon
 saves
 tv-cache
+usercache.json
+usernamecache.json
