@@ -19,7 +19,7 @@ Breeding {
     allowRandomBreedingEggsToBeLegendary=false
     # 经过每个繁殖阶段需要多少Tick。
     breedingTicks=18000
-    # 设置玩家在所有维度世界里可以获得的宝可梦总数量（0为不限制）
+    # 设置玩家在所有维度世界里可以获得的宝可梦总数量 (0为不限制) 
     maxCumulativePokemonInRanch=0
     # 繁殖时需要几个感情等级(1-5)。
     numBreedingStages=5
@@ -39,31 +39,33 @@ ExternalFiles {
     spawnSetFolder=default
     # 是否针对更好的宝可梦生成机制使用位于 config/pixelmon 路径下的文件
     useBetterSpawnerConfig=false
-    # 从外部位置（"pixelmon/drops"）加载用于 掉落物品 的配置文件，如果此项设为true并且"pixelmon/drops"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
+    # 从外部位置 ("pixelmon/drops") 加载用于 掉落物品 的配置文件，如果此项设为true并且"pixelmon/drops"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
     useExternalJSONFilesDrops=false
-    # 从外部位置（"pixelmon/moves"）加载用于 技能 的配置文件，如果此项设为true并且"pixelmon/moves"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
+    # 从外部位置 ("pixelmon/moves") 加载用于 招式 的配置文件，如果此项设为true并且"pixelmon/moves"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
     useExternalJSONFilesMoves=false
-    # 从外部位置（"pixelmon/npcs" ）加载用于 NPC 的配置文件，如果此项设为true并且"pixelmon/npcs"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
+    # 从外部位置 ("pixelmon/npcs" ) 加载用于 NPC 的配置文件，如果此项设为true并且"pixelmon/npcs"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
     useExternalJSONFilesNPCs=false
-    # 从外部位置（"pixelmon/rules"）加载用于 战斗规则 的配置文件，如果此项设为true并且"pixelmon/rules"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
+    # Load external configuration files used for quests from the "pixelmon/quests" folder. If set to true and the "pixelmon/quests" folder does not exist, Pixelmon will create the folder and dump the existing files there.
+    useExternalJSONFilesQuests=false
+    # 从外部位置 ("pixelmon/rules") 加载用于 战斗规则 的配置文件，如果此项设为true并且"pixelmon/rules"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
     useExternalJSONFilesRules=false
-    # 从外部位置（"pixelmon/spawning"）加载用于 生成器 的配置文件，如果此项设为true并且"pixelmon/spawning"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
+    # 从外部位置 ("pixelmon/spawning") 加载用于 生成器 的配置文件，如果此项设为true并且"pixelmon/spawning"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
     useExternalJSONFilesSpawning=false
-    # 从外部位置（"pixelmon/stats"）加载用于 状态 的配置文件，如果此项设为true并且"pixelmon/stats"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
+    # 从外部位置 ("pixelmon/stats") 加载用于 状态 的配置文件，如果此项设为true并且"pixelmon/stats"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
     useExternalJSONFilesStats=false
-    # 从外部位置（"pixelmon/structures"）加载用于 建筑物 的配置文件，如果此项设为true并且"pixelmon/structures"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
+    # 从外部位置 ("pixelmon/structures") 加载用于 建筑物 的配置文件，如果此项设为true并且"pixelmon/structures"文件夹不存在，Pixelmon则会生成这个文件夹并转储现有的配置。
     useExternalJSONFilesStructures=false
 }
-# 设置对战外技能。
+# 设置对战外招式。
 ExternalMoves {
-    # 是否允许玩家使用破坏性对战外技能。 (包括:居合斩/挖洞/爆炸/火光/闪电/碎岩)
+    # 是否允许玩家使用破坏性对战外招式。 (包括:居合斩/挖洞/爆炸/火光/闪电/碎岩)
     allowDestructiveExternalMoves=true
-    # 是否允许玩家使用对战外技能如碎岩。
+    # 是否允许玩家使用对战外招式如碎岩。
     allowExternalMoves=true
 }
 # 世界常规设置。
 General {
-    # Whether Amulet Coin will award double PokéDollars when used.
+    # 允许护符金币在对战后给予2倍的宝可梦币对战奖励
     allowAmuletCoin=true
     # 允许铁砧在玩家操作后自动将玩家背包内的初始操作物品替换成已完成的物品。
     allowAnvilAutoreloading=false
@@ -71,9 +73,9 @@ General {
     allowCaptureOutsideBattle=true
     # 服务器端设置，是否允许玩家使用宝可梦雕刻工具
     allowChisels=true
-    # Whether Happy Hour will award double PokéDollars when used.
+    # 允许是否在使用欢乐时光招式后翻倍宝可梦币奖励
     allowHappyHour=true
-    # Whether Pay Day will award extra PokéDollars when used.
+    # 允许聚宝功在对战后给予额外的宝可梦币奖励
     allowPayDay=true
     # 是否允许玩家种植树果。
     allowPlanting=true
@@ -87,7 +89,7 @@ General {
     allowRandomPokemonToBeLegendary=true
     # 当完成全宝可梦图鉴时解锁闪耀护符
     allowShinyCharmFromPokedex=true
-    # 是否允许技能教学机重复使用。
+    # 是否允许招式教学机重复使用。
     allowTMReuse=false
     # 是否允许和NPC的对战中使宝可梦获得经验。
     allowTrainerExperience=true
@@ -115,9 +117,9 @@ General {
     chanceToGetSpecialBidoof=30
     # 是否允许玩家使用梦幻来克隆超梦。
     cloningMachineEnabled=true
-    # 设置玩家的PC的最大可用页数（上限为256页）
+    # 设置玩家的PC的最大可用页数 (上限为256页) 
     computerBoxes=30
-    # 如果玩家背包或PC被强制保存，则自动保存世界（如果为false，则你需要通过/saveall指令来保存内容，或自行承担数据丢失的问题）
+    # 如果玩家背包或PC被强制保存，则自动保存世界 (如果为false，则你需要通过/saveall指令来保存内容，或自行承担数据丢失的问题) 
     dataSaveOnWorldSave=true
     # 是否在掉落界面显示删除全部物品按钮.
     deleteUnwantedDrops=false
@@ -141,13 +143,13 @@ General {
     maxLevel=100
     # 每个区块内允许种植树果的最大数目，适用于树果和果实。
     maximumPlants=32
-    # 设置技能教学师所拥有的技能数量
+    # 设置招式教学师所拥有的招式数量
     movesPerTutor=20
     # 允许玩家重复获得相同的精灵照片。
     multiplePhotosOfSamePokemon=true
     # 若设置为true，则必须要管理员才可以使用NPC编辑器。若为false，则需要创造模式
     npcEditorOpOnly=true
-    # The ore colors for the Ore Sense moveskill. format is block;color(hex);patternNumber
+    # 设置矿物感应招式的矿物颜色。格式为"方块;颜色(hex格式);图案号码
     oreColors=[
         "minecraft:iron_ore;E2C0AA;0",
         "minecraft:gold_ore;FCEE4B;0",
@@ -170,7 +172,7 @@ General {
         "pixelmon:leaf_stone_ore;7EA167;10",
         "pixelmon:fire_stone_ore;CC7132;11"
     ]
-    # Amount to multiply the level by when Pay Day is used.
+    # 设置聚宝功给予的额外宝可梦币倍数
     payDayMultiplier=5.0
     # 捡拾特性在战斗后获得道具的几率 (1/几率). 0 为禁用此功能。
     pickupRate=10
@@ -184,6 +186,8 @@ General {
     reusableBirdShrines=false
     # 是否允许神鸟神社随机生成。
     spawnBirdShrines=true
+    # pixelmon.config.spawnCelebiShrines.comment
+    spawnCelebiShrines=true
     # 允许随机生成建筑如:宝可梦中心，神社祭坛和其他建筑物，true为生成。
     spawnStructures=true
     # 如果设置为true则必须为OP才能生成宝可梦，如果设置为false则必须为创造模式。
@@ -196,12 +200,12 @@ General {
     tradersReusable=false
     # 是否在击败一个常规宝可梦时显示掉落界面。
     useDropGUI=true
-    # pixelmon.config.useExternalJSONFilesQuests.comment
-    useExternalJSONFilesQuests=false
     # 使用系统时间作为树果成长的依据。这意味着即使游戏并未运行，它们仍将会随着真实世界时间流逝而成长
     useSystemTimeForBerries=false
     # 是否让游戏使用现实时间(根据服务端的系统时间)。
     useSystemTimeForWorldTime=false
+    # pixelmon.config.verbose.comment
+    verbose=false
     # 当保存世界时保存Pixelmon实体到文件中(如果为true，大大增加了保存文件的大小和保存时间)。需要变形mod支持。
     writeEntitiesToWorld=false
 }
@@ -209,13 +213,13 @@ General {
 Graphics {
     # 在宝可梦头上显示其血量方块。
     drawHealthBars=false
-    # Sets how far Pokémon names and levels can be seen from (client setting only). 1=Default, 2=Farther, 3=Far
+    # 设置客户端可以看见宝可梦名称和等级标签的距离 (仅客户端)。1=默认, 2=较远, 3=远
     namePlateRange=1
     # 如果设置为 true，则仅向参与或观看战斗的玩家显示攻击效果。
     onlyShowAttackEffectsToBattlers=true
     # 是否设置玩家对战中可调整镜头方向(设置镜头基于球面的大小)
     playerControlCamera=true
-    # 如果玩家并未在战斗，则向该玩家显示其他战斗动画的显示范围（以方块为单位）。
+    # 如果玩家并未在战斗，则向该玩家显示其他战斗动画的显示范围 (以方块为单位) 。
     rangeToDisplayAttackAnimations=40
     # 通常以64个方块为距离的渲染。
     renderDistanceWeight=2.0
@@ -233,7 +237,7 @@ Graphics {
     useBattleCamera=true
     # 使用平滑纹理的精灵球模型。
     useSmoothShadingOnPokeBalls=true
-    # 使用平滑纹理的宝可梦模型。
+    # 向SMD模型进行动画插值补帧。将会造成游戏性能下降。
     useSmoothShadingOnPokemon=true
 }
 # 用于设置在行走时需要如何治疗宝可梦
@@ -251,11 +255,11 @@ Healing {
 }
 # pixelmon.config.outsideeffects.comment
 OutsideEffects {
-    # Max damage poison can afflict
+    # 中毒效果每次能给宝可梦施加的最大伤害
     poisonMaxDamage=5
-    # Number of steps after which effects are applied
+    # 效果 (如中毒) 每次结算的步数间隔
     stepsToApplyEffects=15
-    # Whether to use outside effects or not
+    # 是否启用对战外回复效果
     useOutsideEffects=true
 }
 # 设置宝可梦实用工具的功能。
@@ -289,7 +293,7 @@ PokeLoot {
     spawnGrotto=true
     # 允许隐形的宝可梦奖励箱随机生成。
     spawnHidden=true
-    # Default spawn mode (FCFS=0, PL1D=1, PUD=2, TIMED=3). FCFS = First Come First Serve, only one player can loot chest, then chests vanishes. PL1D = Player 1 Drop, chest gives one drop per person. Chest remains for others to use once each. PUD = Player Unlimited Drops, chests can be used infinitely by all players. TIMED = Each player allowed to loot again after specified time interval (individual timers). Chest remains after looting.
+    # 默认生成模式 (FCFS=0, PL1D=1, PUD=2, TIMED=3). FCFS = 先到先得，领取后消失。PL1D = 每个玩家给与一次。PUD = 每位玩家可以无限领取此奖励箱。 TIMED = 每位玩家可以在间隔时间内领取一次奖励箱的内容。
     spawnMode=0
     # 允许普通的宝可梦奖励箱随机生成。
     spawnNormal=true
@@ -309,10 +313,12 @@ Pokerus {
     # 在一次对战后，病患宝可梦向周围宝可梦传播病毒。 (1/x) (-1 为不生效，0 为保持生效)
     pkrsSpreadRate=5
 }
-# pixelmon.config.quests.comment
+# Settings that alter how quests function.
 Quests {
-    # pixelmon.config.questMaxRange.comment
+    # The maximum distance between elevators pairing with each other.
     questMaxRange=500
+    # Whether to let NPCs be randomly assigned quests or not. This does not affect quests that have already been started.
+    questRandomNPCs=true
 }
 # 用于控制乘骑宝可梦的设置
 Riding {
@@ -345,14 +351,16 @@ Spawning {
         Gen6=true
         # 宝可梦图鉴 722-807
         Gen7=true
+        # pixelmon.config.Gen8.comment
+        Gen8=true
     }
     # 允许野生神兽产生(特定事件除外)。
     allowLegendarySpawn=true
     # 海声铃铛或透明铃铛寻找其他铃铛的方块距离
     bellInclusionRange=10
-    # Chance that a bell, at dawn, will start to ring. 1 = 100%.
+    # 铃声在每天清晨响起的概率。1 = 100%.
     bellSuccessChance=0.01
-    # 设置野生Boss宝可梦的刷新概率（1/x），不包括超级进化的Boss。
+    # 设置野生Boss宝可梦的刷新概率 (1/x) ，不包括超级进化的Boss。
     bossRate=256
     # 改变一个超进化Boss生成的几率 (0-1)。
     bossSpawnChance=0.30000001192092896
@@ -389,6 +397,8 @@ Spawning {
     horizontalSliceRadius=10
     # 让生成器使用多少个Tick来根据玩家所在位置来生成实体。这将使生成器将实体生成至玩家可能要去的地方。
     horizontalTrackFactor=80
+    # Chance per valid chunk to contain an Ilex Shrine.
+    ilexShrineSpawnRate=0.005
     # 不论如何Pixelmon都将会修改Minecraft的奖励箱内容表 
     injectIntoLootTables=true
     # 改变一个神兽生成的几率 (0-1)。
@@ -401,7 +411,7 @@ Spawning {
     maxLevelByDistance=60
     # 设置实体将会在以玩家为中心进行生成的最大距离
     maximumDistanceFromCentre=64
-    # 一次自然精灵刷新数的最大值（不包含钓鱼生成、移动遇怪、指令生成和神兽生成）
+    # 一次自然精灵刷新数的最大值 (不包含钓鱼生成、移动遇怪、指令生成和神兽生成) 
     maximumSpawnedPokemon=3000
     # 设置美录坦在融化矿物时出现的概率 (1/x)
     meltanSpawnChance=3072
@@ -425,19 +435,19 @@ Spawning {
     spawnLevelsCloserToPlayerLevels=true
     # 在Minecraft村庄里生成宝可梦商店。
     spawnPokeMarts=true
-    # A multiplier that speeds up legendary and mega boss spawning based on player count. ticks = spawnTicks / (1 + (number of players - 1) * spawnTicksPlayerMultiplier)
+    # 根据玩家的数量增量传说中的宝可梦和异色的宝可梦生成。Tick = 生成Tick / (1 + (玩家数量 - 1) * 玩家生成Tick增量)
     spawnTicksPlayerMultiplier=0.009999999776482582
-    # 最终城市是否应该在究极空间的新区块中生成
+    # 是否会在究极空间中生成末地城
     spawnUltraSpaceEndCities=true
-    # 宝可梦奖励箱是否应该在究极空间的新区块中生成
+    # 是否会在究极空间中生成宝可梦奖励箱
     spawnUltraSpaceExtraLoots=true
-    # 更多矿物是否应该在究极空间的新区块中生成
+    # 是否会在究极空间中生成更多矿物
     spawnUltraSpaceExtraOres=true
-    # 宝可梦植物 (例如树果) 箱是否应该在究极空间的新区块中生成
+    # 是否会在究极空间中生成更多植物 (球果，树果等)
     spawnUltraSpaceExtraPlants=true
-    # 异色的宝可梦是否应该在究极空间的新区块中生成
+    # 是否会在究极空间中生成异色宝可梦
     spawnUltraSpaceExtraShrines=true
-    # 虚空堡垒是否应该在究极空间的新区块中生成
+    # 是否会在究极空间中生成下界要塞
     spawnUltraSpaceNetherForts=true
     # pixelmon.config.spawnZygardeCells.comment
     spawnZygardeCells=true
@@ -445,18 +455,18 @@ Spawning {
     spawnsPerPass=2
     # 野生宝可梦在捕捉时变成百变怪的概率
     transformToDittoOnCatch=0.001
-    # 如果为true将按照宝可梦最近一次升级时的招式来生成。若为false按照宝可梦随机选择升级时的技能来生成。
+    # 如果为true将按照宝可梦最近一次升级时的招式来生成。若为false按照宝可梦随机选择升级时的招式来生成。
     useRecentLevelMoves=false
     # 在玩家附近随机选择的垂直生成区域半径，数值越低将获得更好的运算性能，但是相对的会损失生成可靠性。设置成大于水平半径的数值将会使系统更好的匹配用户的行为。
     verticalSliceRadius=25
     # 让生成器使用多少个Tick来根据玩家的垂直移动来生成实体。在通常情况下为了避免玩家跳跃造成的干扰所以设置为0。
     verticalTrackFactor=0
 }
-# Settings that control the starter screen and Pokémon.
+# 控制初学者宝可梦选择界面的相关设置
 Starters {
     # Level (min=5, max=100).
     level=5
-    # Shiny starters.
+    # 是否给予玩家异色的初学者宝可梦
     shiny=false
     # 初始宝可梦数量(最大21只)
     starterList=[
@@ -489,14 +499,14 @@ Starters {
 Storage {
     # 以秒为单位的时间间隔，在此期间，异步函数将保持所有数据保存在磁盘。
     asyncInterval=60
-    # 激活自动保存命令和PC的数据。（仅适用于服务器）
+    # 激活自动保存命令和PC的数据。 (仅适用于服务器) 
     useAsyncSaving=false
 }
-# 设置究极空间是否启用
+# 设置究极空间的维度是否启用
 UltraSpace {
-    # 设置究极空间的维度是否启用
+    # 是否开启究极世界的维度
     ultraSpace=true
-    # 修改Boss在究极空间里出现的概率（常规Boss概率 * 究极空间稀概率)
+    # 修改Boss在究极空间里出现的概率 (常规Boss概率 * 究极空间稀概率)
     ultraSpaceBossModifier=0.5
     # 是否针对究极世界的雾使用色盲模式
     ultraSpaceColourblindMode=false
