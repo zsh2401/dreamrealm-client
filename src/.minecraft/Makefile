@@ -6,3 +6,5 @@ UESLESS_OBJECTS =  screenshots saves \
 .PHONY=clean
 clean:
 	@rm -rf $(UESLESS_OBJECTS)
+
+	
