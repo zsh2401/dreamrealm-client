@@ -13,7 +13,7 @@ pack: pack_win32 pack_unix
 
 cp_win32: clean launchercfg
 	@mkdir $(FLODER)
-	@cp -r src/{开始游戏.exe,*.url,.minecraft,HMCL.jar} $(FLODER)
+	@cp -r ./src/{开始游戏.exe,*.url,.minecraft,HMCL.jar} $(FLODER)
 
 pack_win32: cp_win32
 	@zip -r $(WIN_PACK) $(FLODER)
@@ -21,7 +21,7 @@ pack_win32: cp_win32
 
 cp_unix: clean
 	@mkdir $(UNIX_FLODER)
-	@cp -r src/{HMCL.jar,*.url,*.sh,.minecraft} $(UNIX_FLODER)
+	@cp -r ./src/{HMCL.jar,*.url,*.sh,.minecraft} $(UNIX_FLODER)
 
 pack_unix: cp_unix
 	@tar -czvf $(UNIX_PACK) $(UNIX_FLODER)
