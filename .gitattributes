@@ -1,1 +1,2 @@
 __platform/** filter=lfs diff=lfs merge=lfs -text
+__platform/**/* filter=lfs diff=lfs merge=lfs -text
