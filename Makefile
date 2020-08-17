@@ -1,36 +1,52 @@
-.PHONY=all
+# .PHONY : clean cleanu win32 unix pwin32 punix __shared
 
 SHARED=__platform/shared
 WIN32=__platform/win32
 UNIX=__platform/unix
-ROOT = $(shell pwd)
-clean:
-	rm -rf bin *.tar.gz *.zip
-	rm -rf DreamRealm-*
+VERSION_NAME=`cat VersionName.txt`
+
+default: pack
+
+.PHONY : clean 
+clean: cleanu cleani
+	rm -rf *.tar.gz *.zip
+
+.PHONY : cleanu 
+cleanu: 
 	make -C $(SHARED)/.minecraft clean
 
-__shared:
-	mkdir bin
+.PHONY : cleanu 	
+cleani:
+	rm -rf bin DreamRealm-$(VERSION_NAME)
+
+.PHONY : shared 
+shared: cleanu cleani
+	./initdir.sh
 	cp -r $(SHARED)/* bin/
 	cp -r $(SHARED)/.minecraft bin/
 
-win32: clean __shared 
-	cp -r $(WIN32)/* bin/
+.PHONY : win32 
+win32: shared 
+	cp -r $(WIN32)/*  bin/
+	cp -r $(WIN32)/.minecraft bin/
 
-unix: clean __shared
+.PHONY : unix 
+unix: shared
 	cp -r $(UNIX)/* bin/
+	# cp -r $(UNIX)/.minecraft bin/
 
+.PHONY : pwin32 
 pwin32: win32
 	mv bin DreamRealm-$(VERSION_NAME)
-	zip -r DreamRealm-$(VERSION_NAME).zip DreamRealm-$(VERSION_NAME)
-	rm -rf DreamRealm-$(VERSION_NAME	)
-
+	zip -rq DreamRealm-$(VERSION_NAME).zip DreamRealm-$(VERSION_NAME)
+	make cleani
+	
+.PHONY : punix 
 punix: unix
 	mv bin DreamRealm-$(VERSION_NAME)
-	tar -cvf DreamRealm-$(VERSION_NAME).tar.gz DreamRealm-$(VERSION_NAME)
-	rm -rf DreamRealm-$(VERSION_NAME)
+	tar -cf DreamRealm-$(VERSION_NAME).tar.gz DreamRealm-$(VERSION_NAME)
+	make cleani
 
 pack:
-	ROOT
-	read -p "aa" SHELL_VNAME
-	@echo ${SHELL_VNAME}
+	make pwin32
+	make punix
