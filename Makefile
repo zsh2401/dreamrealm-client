@@ -1,37 +1,21 @@
-.PHONY=clean
+.PHONY=all
 
-VERSION=`cat VersionName.txt`
-UNIX_FLODER=DreamRealm-$(VERSION)
-FLODER=DreamRealm-$(VERSION)
-UNIX_PACK=DreamRealm-$(VERSION).tar.gz
-WIN_PACK=DreamRealm-$(VERSION).zip
+SHARED=__platform/shared
+WIN32=__platform/win32
+UNIX=__platform/unix
 
-pack: pack_win32 pack_unix
+clean:
+	rm -rf bin/*
+	rm -rf bin/.minecraft
+	make -C $(SHARED)/.minecraft clean
 
-cp_win32: clean
-	@mkdir $(FLODER)
-	@cp ./src/hmcl.dev.json $(FLODER)/hmcl.json
-	@cp -r ./src/{开始游戏.exe,*.url,.minecraft} $(FLODER)
+__shared:
+	find bin
+	cp -r $(SHARED)/* bin/
+	cp -r $(SHARED)/.minecraft bin/
 
-pack_win32: cp_win32
-	@zip -r $(WIN_PACK) $(FLODER)
-	@rm -r $(FLODER)
+win32: clean __shared 
+	cp -r $(WIN32)/* bin/
 
-cp_unix: clean
-	@mkdir $(UNIX_FLODER)
-	@cp -r ./src/{HMCL.jar,*.url,*.sh,.minecraft} $(UNIX_FLODER)
-
-pack_unix: cp_unix
-	@tar -czvf $(UNIX_PACK) $(UNIX_FLODER)
-	@rm -r $(UNIX_FLODER)
-
-cleansrc:
-	@make -C ./src/.minecraft clean
-	@rm -f src/.hmcl*.json
-
-cleanbuild:
-	@rm -rf DreamRealm-*
-
-clean: cleansrc cleanbuild
-
-
+unix: clean __shared
+	cp -r $(UNIX)/* bin/
