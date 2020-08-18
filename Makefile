@@ -44,7 +44,7 @@ pwin32: win32
 .PHONY : punix 
 punix: unix
 	mv bin DreamRealm-$(VERSION_NAME)
-	tar -cf DreamRealm-$(VERSION_NAME).tar.gz DreamRealm-$(VERSION_NAME)
+	tar -czf DreamRealm-$(VERSION_NAME).tar.gz DreamRealm-$(VERSION_NAME)
 	make cleani
 
 pack:
